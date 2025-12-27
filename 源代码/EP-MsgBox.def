@@ -1,0 +1,5 @@
+LIBRARY EP-MsgBox.dll
+
+EXPORTS
+ShowMessageBox
+ShowMsgBox
