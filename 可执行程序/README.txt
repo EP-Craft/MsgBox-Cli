@@ -1,5 +1,5 @@
 使用"启动命令"+"参数"可调用此程序功能
-Start "" "Main.exe" -type=0/1/2/3/4 -title="<String>" -text="<Text>"
+Start "" "EP-MsgBox-CLI.exe" -type=0/1/2/3/4 -title="<String>" -text="<Text>"
 
 -type:
 0 = 无图标
@@ -22,7 +22,8 @@ Q: 参数对大小写字母有要求吗?
 A: 没有
 Q: 如果重复输入单个参数会怎样?
 A: 优先执行最靠后的这个参数
-Q: 入口"Main.exe"是否可以更改名称?
+Q: 入口"EP-MsgBox-CLI.exe"是否可以更改名称?
 A: 可以
 Q: 库"EP-MsgBox.dll"是否可以更改名称?
+
 A: 不可以
