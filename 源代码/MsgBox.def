@@ -1,0 +1,5 @@
+LIBRARY MsgBox.dll
+
+EXPORTS
+ShowMessageBox
+ShowMsgBox
