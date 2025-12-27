@@ -1,4 +1,5 @@
 ```bash
-tcc -o Main.exe Main.c -lkernel32 -luser32 -Wl,-subsystem=windows
+tcc -o EP-MsgBox-CLI.exe EP-MsgBox-CLI.c -lkernel32 -luser32 -Wl,-subsystem=windows
 tcc -shared -o EP-MsgBox.dll EP-MsgBox.c -lkernel32 -luser32
+
 ```
